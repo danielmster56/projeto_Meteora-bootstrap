@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meteora</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
@@ -312,25 +314,43 @@
         </div>
     </div>
 
-    <section class="text-center">
-        <h2>Conheça todas as nossas facilidades</h2>
-        <div>
-            <div></div>
-            <div>PAGUE POR PIX</div>
-            <div>Ganhe 5% OFF em
-                pagamentos via PIX</div>
-        </div>
-        <div>
-            <div></div>
-            <div>TROCA GRÁTIS</div>
-            <div>Fique livre para trocar em até 30 dias.</div>
-        </div>
-        <div>
-            <div></div>
-            <div>SUSTENTABILIDADE</div>
-            <div>Moda responsável, que respeita o meio ambiente.</div>
+    <section class="pb-4">
+        <h2 class="text-center">Conheça todas as nossas facilidades</h2>
+
+        <div class="d-flex align-items-center flex-column gap-3 .d-lg-flex flex-lg-row justify-content-lg-center">
+            <div class="divs-facilidades d-flex">
+                <div><i class="bi bi-x-diamond fs-1"></i></div>
+                <div>
+                    <div class="ms-3 mb-1">PAGUE POR PIX</div>
+                    <div class="texto menor ms-3">Ganhe 5% OFF em
+                        pagamentos via PIX</div>
+                </div>
+            </div>
+
+            <div class="divs-facilidades d-flex">
+                <div><i class="bi bi-arrow-repeat fs-1"></i></div>
+                <div>
+                    <div class="ms-3 mb-1">TROCA GRÁTIS</div>
+                    <div class="texto menor ms-3">Fique livre para trocar em até 30 dias.</div>
+                </div>
+            </div>
+            <div class="divs-facilidades d-flex">
+                <div><i class="bi bi-flower1 fs-1"></i></div>
+                <div>
+                    <div class="ms-3 mb-1">SUSTENTABILIDADE</div>
+                    <div class="texto menor ms-3">Moda responsável, que respeita o meio ambiente.</div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <form class="border border-secondary m-3 p-3 text-center">
+        <h5>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
+        <div class="input-group my-3">
+          <input type="email" class="form-control border-secondary rounded-0" placeholder="Digite seu e-mail" aria-label="Digite seu e-mail" aria-describedby="button-addon2" /> 
+    <button type="button" id="button-addon2">Enviar</button>
+        </div>
+      </form>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
