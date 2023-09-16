@@ -13,3 +13,12 @@
 .verde-limao {
     color: #DAFF01;
 }
+.carousel-container {
+    margin: 0 auto;
+  }
+  
+@media (min-width: 1440px) {
+    .carousel-container {
+      width: 1440px;
+    }
+}
